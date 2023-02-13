@@ -12,14 +12,8 @@
 </head>
 <body>
 
-<form>
-    <h1>GET</h1>
-    <input type = "number" name="num1">
-    <input type = "number" name="num2">
-    <button type = "sumbit">SEND</button>
-  </form>
-  <form action="calcResult.jsp" method="post">
-    <h1>POST</h1>
+
+  <form action="/calc/makeResult" method="post">
     <input type = "number" name="num1">
     <input type = "number" name="num2">
     <button type = "sumbit">SEND</button>
